@@ -1,0 +1,29 @@
+/* 清除默认样式 */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+p,
+ul,
+ol,
+li,
+form,
+button,
+input,
+textarea {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+:root:root {
+  --main-fr-color: #fc5185;
+
+  --van-collapse-item-content-background: #ffffffd0;
+  --van-pagination-item-default-color: var(--main-fr-color);
+}
